@@ -17,5 +17,4 @@ Breaks down dates into several attributes, like day, month, year, name_of_days, 
 e. dim_location (Where)
 Captures geographic details of the physical or digital store, involving shop_name, shop_address, shop_city, shop_province, and shop_country.
 
-![alt text]
-(Physical Data Model.png)
+![Physical Data Model](image-1.png)
