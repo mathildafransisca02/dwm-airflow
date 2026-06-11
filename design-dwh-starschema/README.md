@@ -1,8 +1,8 @@
 Star Schema is designed to improve performance for aggregations and reporting because dimensions are denormalized that is easy for the memory and make queries simpler. 
 As shown in the physical data model below, the design incudes
 a. fact_sales
-Records the quantitative metrics (measurements) that results from a sale. It contains :
-Foreign Keys (FK): product_id, customer_id, time_id, and location_id which link the fact table to its related dimensions.
+records the quantitative metrics (measurements) that results from a sale. It contains : <br>
+Foreign Keys (FK): product_id, customer_id, time_id, and location_id which link the fact table to its related dimensions. <br>
 Measures/Metrics: Numerical data used for calculations, such as item_solds, discount, sales_amount, and the event timestamp sales_date.
 
 b. dim_product (What)
